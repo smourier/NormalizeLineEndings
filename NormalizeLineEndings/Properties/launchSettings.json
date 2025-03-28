@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "NormalizeLineEndings": {
+      "commandName": "Project",
+      "commandLineArgs": "List E:\\smo\\GitHub\\NormalizeLineEndings\\NormalizeLineEndings\\bin\\Debug\\net9.0",
+      "hotReloadEnabled": false
+    }
+  }
+}
