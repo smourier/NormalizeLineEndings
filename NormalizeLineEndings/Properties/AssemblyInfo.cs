@@ -1,4 +1,4 @@
-﻿[assembly: AssemblyCopyright("Copyright (C) 2024-2025 Simon Mourier. All rights reserved.")]
+﻿[assembly: AssemblyCopyright("Copyright (C) 2024-2026 Simon Mourier. All rights reserved.")]
 [assembly: AssemblyTitle("Normalize Line Endings")]
 #if DEBUG
 [assembly: AssemblyConfiguration("DEBUG")]
