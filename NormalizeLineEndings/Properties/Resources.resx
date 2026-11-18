@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttributesAdded" xml:space="preserve">
+    <value>  .gitattributes added: {0}</value>
+  </data>
+  <data name="AttributesAddedLf" xml:space="preserve">
+    <value>  .gitattributes added: {0}, LF for: {1}</value>
+  </data>
+  <data name="AttributesComment" xml:space="preserve">
+    <value># every text file is stored with LF and written out with CRLF, whatever core.autocrlf says on the machine.</value>
+  </data>
+  <data name="AttributesKept" xml:space="preserve">
+    <value>  .gitattributes exists, used as is.</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>NormalizeLineEndings - Copyright (C) 2024-{0} Simon Mourier. All rights reserved.</value>
+  </data>
+  <data name="DiskFiles" xml:space="preserve">
+    <value>  Files converted on disk: {0}</value>
+  </data>
+  <data name="FileChanged" xml:space="preserve">
+    <value>{0} =&gt; {1}</value>
+  </data>
+  <data name="FileConverted" xml:space="preserve">
+    <value>  {0}: {1} to {2}</value>
+  </data>
+  <data name="FileFailed" xml:space="preserve">
+    <value>  {0} cannot be read: {1}</value>
+  </data>
+  <data name="FileLineEndings" xml:space="preserve">
+    <value>{0} Encoding:{1} NewLines:{2} CrLf:{3} Lf:{4}</value>
+  </data>
+  <data name="GitFailed" xml:space="preserve">
+    <value>git {0} failed: {1}</value>
+  </data>
+  <data name="HelpCommands" xml:space="preserve">
+    <value>Commands:</value>
+  </data>
+  <data name="HelpCrLfCommand" xml:space="preserve">
+    <value>    CrLf             Set all line endings to CR (13) + LF (10), i.e: \r\n.</value>
+  </data>
+  <data name="HelpCrLfExample" xml:space="preserve">
+    <value>    Set all line endings of files in the c:\mypath directory to CR+LF</value>
+  </data>
+  <data name="HelpCrLfExampleLine" xml:space="preserve">
+    <value>    {0} CrLf c:\mypath /Write</value>
+  </data>
+  <data name="HelpDefsCommand" xml:space="preserve">
+    <value>    Defs             Shows the default list of extensions mappings.</value>
+  </data>
+  <data name="HelpDescription" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="HelpDescriptionText" xml:space="preserve">
+    <value>    This tool updates all text files line endings.</value>
+  </data>
+  <data name="HelpExamples" xml:space="preserve">
+    <value>Examples:</value>
+  </data>
+  <data name="HelpExtsOption" xml:space="preserve">
+    <value>    /Exts:&lt;list&gt;     A comma-separated list of text files extensions (don't use the default one).</value>
+  </data>
+  <data name="HelpFormat" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="HelpFormatLine" xml:space="preserve">
+    <value>{0} [command] &lt;input path&gt; [options]</value>
+  </data>
+  <data name="HelpGitCommand" xml:space="preserve">
+    <value>    Git              Makes the git repository at the input path, or each one directly under it, store text files with LF and write them with CRLF. Nothing is committed.</value>
+  </data>
+  <data name="HelpGitExample" xml:space="preserve">
+    <value>    Makes every text file of the git repository in c:\mypath, or of each repository directly under it, CRLF on disk and LF in git, keeping *.sh and *.yml files with LF.</value>
+  </data>
+  <data name="HelpGitExampleLine" xml:space="preserve">
+    <value>    {0} Git c:\mypath /Lf:*.sh,*.yml</value>
+  </data>
+  <data name="HelpLfCommand" xml:space="preserve">
+    <value>    Lf               Set all line endings to LF (10), i.e: \n.</value>
+  </data>
+  <data name="HelpLfOption" xml:space="preserve">
+    <value>    /Lf:&lt;list&gt;       A comma-separated list of patterns the Git command keeps with LF, like *.sh,*.yml.</value>
+  </data>
+  <data name="HelpListCommand" xml:space="preserve">
+    <value>    List             List line endings.</value>
+  </data>
+  <data name="HelpOptions" xml:space="preserve">
+    <value>Options:</value>
+  </data>
+  <data name="HelpPExtsOption" xml:space="preserve">
+    <value>    /PExts:&lt;list&gt;    A comma-separated list of text files extensions (to add to the default one).</value>
+  </data>
+  <data name="HelpTestCommand" xml:space="preserve">
+    <value>    Test             The default command. Tells what the Git command would do, and writes nothing.</value>
+  </data>
+  <data name="HelpTestExample" xml:space="preserve">
+    <value>    Tells what the Git command would do in c:\mypath, and writes nothing.</value>
+  </data>
+  <data name="HelpTestExampleLine" xml:space="preserve">
+    <value>    {0} c:\mypath</value>
+  </data>
+  <data name="HelpTextsCommand" xml:space="preserve">
+    <value>    Texts            Shows the default list of extensions considered as text files.</value>
+  </data>
+  <data name="HelpWriteOption" xml:space="preserve">
+    <value>    /Write           List, CrLf and Lf change no file unless this flag is set. Git always writes, Test never does.</value>
+  </data>
+  <data name="NoRepository" xml:space="preserve">
+    <value>No git repository in '{0}' or in its direct subfolders.</value>
+  </data>
+  <data name="RepositoryFailed" xml:space="preserve">
+    <value>{0} failed: {1}</value>
+  </data>
+  <data name="RepositoryLocked" xml:space="preserve">
+    <value>  Skipped, git is busy in this repository since index.lock exists.</value>
+  </data>
+  <data name="RepositoryTitle" xml:space="preserve">
+    <value>Repository: {0}</value>
+  </data>
+  <data name="RunCommand" xml:space="preserve">
+    <value>Command    : {0}</value>
+  </data>
+  <data name="RunExtensions" xml:space="preserve">
+    <value>Extensions : {0}</value>
+  </data>
+  <data name="RunInput" xml:space="preserve">
+    <value>Input      : {0}</value>
+  </data>
+  <data name="RunWrite" xml:space="preserve">
+    <value>Write      : {0}</value>
+  </data>
+  <data name="StoredFiles" xml:space="preserve">
+    <value>  Files stored with CRLF: {0}, renormalized and staged: {1}, left for their owner to add since they have unstaged changes: {2}</value>
+  </data>
+  <data name="TestMode" xml:space="preserve">
+    <value>Test mode, nothing is written.</value>
+  </data>
+</root>
